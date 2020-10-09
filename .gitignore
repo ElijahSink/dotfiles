@@ -11,6 +11,7 @@
 .vim/undodir/
 .vim/plugged/
 go/
+.config/chromium/
 
 
 # personal folders
