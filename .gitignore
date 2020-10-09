@@ -1,0 +1,48 @@
+# subdirectories
+.cache/
+.dotfiles/
+.local/
+.npm/
+.pylint.d/
+.mitmproxy/
+.ipython/
+.pki/
+.vscode-server-insiders/
+.vim/undodir/
+.vim/plugged/
+go/
+
+
+# personal folders
+school/
+CFRL/
+ejsink/
+projects/
+
+# junk
+.viminf*
+.fehbg
+.pulse-cookie
+*.jpg
+*.png
+
+# history
+.psql_history
+.units_history
+.lesshst
+.wget-hsts
+.python_history*
+.bash_history
+.zsh_history
+.tig_history
+
+# very secret stuff
+.Xauthority
+.aws
+.gnupg/
+.esd_auth
+.gitconfig
+.password-store*
+.password-store*/*
+random.dat
+
