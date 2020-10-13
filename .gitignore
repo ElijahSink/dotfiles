@@ -12,7 +12,8 @@
 .vim/plugged/
 go/
 .config/chromium/
-
+.ssh
+.v8*
 
 # personal folders
 school/
