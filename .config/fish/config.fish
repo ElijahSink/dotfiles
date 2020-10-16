@@ -7,6 +7,8 @@ alias git-clean-all='find . -type d -name .git -exec sh -c "cd \"{}\"/../ && pri
 
 alias feh='feh --scale-down --auto-zoom'  # open images in feh scaled to window size
 
+alias j='autojump'
+
 alias cp='cp -i'  # confirm before overwriting something
 alias df='df -h'  # human-readable sizes
 alias du='du -h'  # ditto
@@ -22,3 +24,6 @@ export PATH="$PATH:/home/ejsink/.local/bin"
 # eval /usr/local/anaconda/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
+if test -e /etc/profile.d/autojump.sh
+    bass source /etc/profile.d/autojump.sh
+end

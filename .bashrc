@@ -2,6 +2,14 @@
 # ~/.bashrc
 #
 
+# Execute `fish` in interactive mode
+if [ -z "$PS1" ]; then
+        echo 'This shell is not interactive. Will keep using bash to make VS Code Remote work.'
+else
+        # echo 'This shell is interactive. Will switch to fish.'
+        exec fish
+fi
+
 [[ $- != *i* ]] && return
 
 [ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
