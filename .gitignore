@@ -7,7 +7,7 @@
 .mitmproxy/
 .ipython/
 .pki/
-.vscode-server-insiders/
+.vscode-server/
 .vim/undodir/
 .vim/plugged/
 go/
@@ -49,3 +49,5 @@ projects/
 .password-store*/*
 random.dat
 
+# symlinks
+winhome
