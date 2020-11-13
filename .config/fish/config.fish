@@ -16,7 +16,7 @@ alias free='free -m'  # show sizes in MB
 alias rm='rm -iv'  # confirm before deletion
 alias c=clear  # shortcut to clear screen
 
-alias code='code-insiders'
+#alias code='code-insiders'
 
 export PATH="$PATH:/home/ejsink/.local/bin"
 # export PATH="$PATH:/usr/local/anaconda/bin"

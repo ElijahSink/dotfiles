@@ -14,6 +14,7 @@ go/
 .config/chromium/
 .ssh
 .v8*
+installs/
 
 # personal folders
 school/

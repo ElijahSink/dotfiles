@@ -11,9 +11,10 @@ alias ':q'=exit
 alias ':e'=vim
 alias vi=vim
 alias gits='git status'
+alias less='less -q'
 #alias pipenv='pipenv --python=`which python`'
 
 # alias for git directory belonging to my dotfiles
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
 
 alias savepkgs='pacman -Qqne > ~/.pacman_package_list; pacman -Qm > ~/.aur_package_list'
