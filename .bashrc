@@ -6,9 +6,9 @@
 if [ -z "$PS1" ]; then
         echo 'This shell is not interactive. Will keep using bash to make VS Code Remote work.'
 else
-        # echo 'This shell is interactive. Will switch to fish.'
-        # exec fish
-    true
+    echo 'This shell is interactive. Will switch to fish.'
+    exec fish
+    # true
 fi
 
 [[ $- != *i* ]] && return
