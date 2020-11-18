@@ -294,3 +294,13 @@ let g:UltiSnipsJumpBackwardTrigger = '<C-z>'
 
 " ycm extra conf for c and other compilation
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+
+
+" WSL yank support
+let s:clip = 'clip.exe'  " change this path according to your mount point
+if executable(s:clip)
+    augroup WSLYank
+        autocmd!
+        autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
+    augroup END
+endif
