@@ -19,3 +19,5 @@ yay -Yc
 
 yay -S autojump-rs
 ```
+Credit to @gregdan3 for the bulk of the configs, especially vim's. Credit to
+@eolatham for an example of how to set up this repository.
