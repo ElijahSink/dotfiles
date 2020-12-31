@@ -28,3 +28,7 @@ export PATH="$PATH:/home/ejsink/.local/bin"
 
 # autojump
 [ -f /usr/share/autojump/autojump.fish ]; and source /usr/share/autojump/autojump.fish
+
+# X server
+export DISPLAY=(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
+export LIBGL_ALWAYS_INDIRECT=1
