@@ -20,7 +20,6 @@ endif
 
 " visual settings
 syntax enable                   " syntax highlighting for applicable buffers
-set wrap                        " wrap long lines to next display line
 set linebreak                   " wrap between words, not within
 " NOTE: You can move the cursor inside display lines with g[hjkl]
 set display+=lastline           " always show last line of paragraph
@@ -172,6 +171,7 @@ else                                            " local plugins
     Plug 'rust-lang/rust.vim', {'for': 'rust'}  " this comes with other cool things too
     Plug 'wlangstroth/vim-racket', {'for': ['rkt', 'racket']}
     Plug 'Chiel92/vim-autoformat', {'for': otherTypes}
+    Plug 'tpope/vim-unimpaired'                 " better bracket binds
 
     " NOTE: you can :echo glob($VIMRUNTIME . '/ftplugin/*.vim') to see filetypes available
     " NOTE: you can :PlugStatus to see running plugins
