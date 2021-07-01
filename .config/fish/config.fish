@@ -32,3 +32,13 @@ export PATH="$PATH:/home/ejsink/.local/bin"
 # X server
 export DISPLAY=(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
 export LIBGL_ALWAYS_INDIRECT=1
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/ejsink/installs/google-cloud-sdk/path.fish.inc' ]; . '/home/ejsink/installs/google-cloud-sdk/path.fish.inc'; end
+
+# pdm
+if test -n "$PYTHONPATH"
+    set -x PYTHONPATH '/home/ejsink/.local/pipx/venvs/pdm/lib/python3.9/site-packages/pdm/pep582' $PYTHONPATH
+else
+    set -x PYTHONPATH '/home/ejsink/.local/pipx/venvs/pdm/lib/python3.9/site-packages/pdm/pep582'
+end
