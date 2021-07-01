@@ -1,8 +1,8 @@
 # Instructions for system setup
 ```bash
-alias config='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
-echo ".config" >> .gitignore
-git clone --bare git@github.com:ElijahSink/dotfiles.git $HOME/.config
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+echo ".dotfiles" >> .gitignore
+git clone --bare git@github.com:ElijahSink/dotfiles.git $HOME/.dotfiles
 config stash && config checkout
 config config --local status.showUntrackedFiles no
 
