@@ -33,6 +33,7 @@ SETUVAR _fish_abbr_drp:doppler\x20run\x20pdm
 SETUVAR _fish_abbr_drpa:doppler\x20run\x20pdm\x20add
 SETUVAR _fish_abbr_drpi:doppler\x20run\x20pdm\x20install
 SETUVAR _fish_abbr_ga:git\x20add
+SETUVAR _fish_abbr_gba:git\x20branch\x20\x2da
 SETUVAR _fish_abbr_gcb:git\x20checkout\x20\x2db
 SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm
 SETUVAR _fish_abbr_gf:git\x20fetch
