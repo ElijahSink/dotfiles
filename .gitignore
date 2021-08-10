@@ -15,6 +15,13 @@ go/
 .ssh
 .v8*
 installs/
+.cargo/
+.poetry/
+.pyenv/
+.rustup/
+.yarn/
+**/update-notifier-*
+.config/vscode-sqltools/*
 
 # personal folders
 school/
@@ -49,6 +56,10 @@ tomato/
 .password-store*
 .password-store*/*
 random.dat
+.doppler/
+.config/gcloud/
 
 # symlinks
 winhome
+.azure
+.boto

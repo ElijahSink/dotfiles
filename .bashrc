@@ -2,15 +2,6 @@
 # ~/.bashrc
 #
 
-# Execute `fish` in interactive mode
-if [ -z "$PS1" ]; then
-        echo 'This shell is not interactive. Will keep using bash to make VS Code Remote work.'
-else
-    #echo 'This shell is interactive. Will switch to fish.'
-    #exec fish
-    true
-fi
-
 [[ $- != *i* ]] && return
 
 [ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
@@ -72,5 +63,4 @@ source ~/.bash_prompt    # prompt
 source ~/.bash_vars      # envvars
 
 [[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
-eval "$(pipenv --completion)"
 
