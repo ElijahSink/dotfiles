@@ -63,3 +63,25 @@ random.dat
 winhome
 .azure
 .boto
+
+# Mac Stuff
+Applications/
+Desktop/
+Downloads/
+Documents/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+dotTraceSnapshots/src/
+.DS_Store
+.CFUserTextEncoding
+.Trash/
+.zsh_sessions/
+.zprofile
+.vscode/
+.nuget/
+.dotnet/
+.aspnet/
+src/
